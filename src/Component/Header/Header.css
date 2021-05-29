@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+
+.nav_header {
+  font-family: 'Satisfy', cursive;
+  font-size: var(--font-size-large);
+  color: var(--blue);
+  font-weight: 600;
+  /* padding: 1rem 3rem; */
+}

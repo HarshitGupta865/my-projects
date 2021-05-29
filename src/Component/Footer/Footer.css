@@ -1,0 +1,42 @@
+.social_icons {
+  padding: 2rem;
+}
+
+.icon {
+  background: transparent;
+  outline: none;
+  font-size: 20px;
+  border-radius: 50%;
+  color: var(--blue);
+  transition: all 0.5s;
+  margin: 1.2rem;
+  padding: 0.5rem 1rem;
+  border: 1px solid var(--blue);
+}
+
+.icon:hover {
+  border: 1px solid var(--blue);
+  background-color: var(--black);
+  color: var(--white);
+  box-shadow: 0px 2px 6px 5px rgba(50, 130, 184, 0.75);
+  -webkit-box-shadow: 0px 2px 6px 5px rgba(50, 130, 184, 0.75);
+  -moz-box-shadow: 0px 2px 6px 5px rgba(50, 130, 184, 0.75);
+}
+
+.copyright {
+  color: var(--white-1);
+  font-size: var(--font-size-very-small);
+  padding: 3rem 0;
+  word-spacing: 1px;
+}
+
+.copyright a {
+  color: var(--blue);
+  text-decoration: none;
+  padding-left: 3px;
+  text-decoration: underline;
+}
+
+.copyright a:hover {
+  color: var(--white-1);
+}

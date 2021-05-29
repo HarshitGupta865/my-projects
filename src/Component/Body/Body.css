@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+/* font-family: 'Merriweather', serif; */
+
+* {
+  font-family: 'Roboto', serif;
+}
+.body_container {
+  margin: 3rem auto;
+  max-width: var(--container-max-width);
+}
+
+.main_body {
+  margin: 0 2rem;
+}
+
+h1 {
+  color: var(--white);
+  font-family: 'Playfair+Display', serif;
+  font-weight: 600;
+  letter-spacing: 1px;
+  font-size: var(--font-size-medium-1);
+  -webkit-transform: scale(1, 1.1);
+}
+
+p {
+  color: var(--white-1);
+  font-size: var(--font-size-small);
+}
+
+.body_upper_para {
+  border: 1px solid var(--blue);
+  font-size: var(--font-size-very-small);
+  padding: 1rem;
+  margin: 2rem 0 12rem 0;
+}
+
+img {
+  width: 400px;
+  height: 250px;
+}
+
+.project_link {
+  display: flex;
+}
+
+.site_link {
+  font-size: var(--font-size-small);
+  position: relative;
+  padding: 1rem 2rem;
+  border-bottom: 2px solid var(--blue);
+  display: inline-block;
+  text-decoration: none;
+  color: var(--white-1);
+  letter-spacing: 1px;
+  overflow: hidden;
+  transition: 0.6s;
+}
+
+.site_link:hover {
+  color: var(--white-1);
+  background: var(--blue);
+}
+
+.site_link::before,
+.site_link::after {
+  position: absolute;
+  content: '';
+  left: 0;
+  right: 0;
+  height: 100%;
+  filter: blur(3rem);
+  opacity: 0.6;
+  transition: 0.6s;
+}
+
+.site_link::before {
+  width: 6rem;
+  background: rgba(255, 255, 255, 1);
+  transform: translateX(-130px) skewX(-45deg);
+}
+
+.site_link::after {
+  width: 3rem;
+  background: rgba(255, 255, 255, 0.1);
+  transform: translateX(-130px) skewX(-45deg);
+}
+
+.site_link:hover::before,
+.site_link:hover:after {
+  opacity: 0.6;
+  transform: translateX(320px) skewX(-45deg);
+}
+
+.github_link {
+  width: 4rem;
+  height: 4rem;
+  margin: 0.7rem 0 0 3rem;
+  transition: all 0.4s;
+}
+
+.github_link:hover {
+  transform: scale(1.1);
+}
+
+.arrow {
+  background: none;
+}
+
+.project_container {
+  margin-bottom: 20rem;
+}
+
+.project_container:last-child {
+  margin-bottom: 5rem;
+}
+
+.left_side {
+  margin-right: 12rem;
+}
+
+.right_side p {
+  margin: 4rem 0 3rem 0;
+}
+
+hr {
+  width: 5px;
+  color: var(--white-1);
+}
+
+/* ------------------------------------RESPONSIVENESS------------------------------ */
+
+@media only screen and (max-width: 1050px) {
+  img {
+    width: 320px;
+    height: 220px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .right_side h1 {
+    margin: 3rem 0;
+  }
+  .main_body {
+    margin: 0 2rem;
+  }
+  .project_container {
+    display: block;
+    margin: 0 auto;
+  }
+
+  .project_container {
+    margin-bottom: 15rem;
+  }
+}
