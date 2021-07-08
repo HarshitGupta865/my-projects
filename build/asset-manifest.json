@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/my-projects/static/css/main.80852ec4.chunk.css",
+    "main.js": "/my-projects/static/js/main.05a087f2.chunk.js",
+    "main.js.map": "/my-projects/static/js/main.05a087f2.chunk.js.map",
+    "runtime-main.js": "/my-projects/static/js/runtime-main.f0175c80.js",
+    "runtime-main.js.map": "/my-projects/static/js/runtime-main.f0175c80.js.map",
+    "static/css/2.61b4cb56.chunk.css": "/my-projects/static/css/2.61b4cb56.chunk.css",
+    "static/js/2.de8a81d9.chunk.js": "/my-projects/static/js/2.de8a81d9.chunk.js",
+    "static/js/2.de8a81d9.chunk.js.map": "/my-projects/static/js/2.de8a81d9.chunk.js.map",
+    "static/js/3.849f5654.chunk.js": "/my-projects/static/js/3.849f5654.chunk.js",
+    "static/js/3.849f5654.chunk.js.map": "/my-projects/static/js/3.849f5654.chunk.js.map",
+    "index.html": "/my-projects/index.html",
+    "static/css/2.61b4cb56.chunk.css.map": "/my-projects/static/css/2.61b4cb56.chunk.css.map",
+    "static/css/main.80852ec4.chunk.css.map": "/my-projects/static/css/main.80852ec4.chunk.css.map",
+    "static/js/2.de8a81d9.chunk.js.LICENSE.txt": "/my-projects/static/js/2.de8a81d9.chunk.js.LICENSE.txt",
+    "static/media/github.036bd1c0.svg": "/my-projects/static/media/github.036bd1c0.svg",
+    "static/media/project1.902565eb.webp": "/my-projects/static/media/project1.902565eb.webp",
+    "static/media/project2.c20bb375.webp": "/my-projects/static/media/project2.c20bb375.webp",
+    "static/media/project3.9a2f1133.webp": "/my-projects/static/media/project3.9a2f1133.webp",
+    "static/media/project4.155e60f1.webp": "/my-projects/static/media/project4.155e60f1.webp",
+    "static/media/project5.daf56655.webp": "/my-projects/static/media/project5.daf56655.webp",
+    "static/media/project6.fbb79a6c.webp": "/my-projects/static/media/project6.fbb79a6c.webp",
+    "static/media/project7.92effc82.webp": "/my-projects/static/media/project7.92effc82.webp",
+    "static/media/project8.2e61b4fd.webp": "/my-projects/static/media/project8.2e61b4fd.webp",
+    "static/media/project9.866b3a41.webp": "/my-projects/static/media/project9.866b3a41.webp"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f0175c80.js",
+    "static/css/2.61b4cb56.chunk.css",
+    "static/js/2.de8a81d9.chunk.js",
+    "static/css/main.80852ec4.chunk.css",
+    "static/js/main.05a087f2.chunk.js"
+  ]
+}

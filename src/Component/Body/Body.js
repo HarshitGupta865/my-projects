@@ -10,6 +10,7 @@ import project6 from '../../Images/project6.webp';
 import project7 from '../../Images/project7.webp';
 import project8 from '../../Images/project8.webp';
 import project9 from '../../Images/project9.webp';
+import project10 from '../../Images/project10.png';
 import Github from '../../Images/github.svg';
 
 const Body = () => {
@@ -26,6 +27,29 @@ const Body = () => {
             </p>
 
             {/* Row project container is the main className that contains repeated sections */}
+
+            <div className="row project_container">
+              <div className="col-md-5 col-12 left_side">
+                <img src={project10} alt="" />
+              </div>
+              <div className="col-md-5 col-12 right_side">
+                <h1>Insurance Point Office</h1>
+                <p>
+                  Collaborated for the development & devployment of the website
+                  for Insurance Point Point as one of my freelancing projects.
+                </p>
+                <div className="project_link">
+                  <a
+                    href="https://insurancepointoffice.com"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="site_link"
+                  >
+                    Visit Site <span className="arrow">&rarr;</span>
+                  </a>
+                </div>
+              </div>
+            </div>
 
             <div className="row project_container">
               <div className="col-md-5 col-12 left_side">
