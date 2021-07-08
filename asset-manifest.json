@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/my-projects/static/css/main.80852ec4.chunk.css",
-    "main.js": "/my-projects/static/js/main.05a087f2.chunk.js",
-    "main.js.map": "/my-projects/static/js/main.05a087f2.chunk.js.map",
+    "main.js": "/my-projects/static/js/main.8f373f87.chunk.js",
+    "main.js.map": "/my-projects/static/js/main.8f373f87.chunk.js.map",
     "runtime-main.js": "/my-projects/static/js/runtime-main.f0175c80.js",
     "runtime-main.js.map": "/my-projects/static/js/runtime-main.f0175c80.js.map",
     "static/css/2.61b4cb56.chunk.css": "/my-projects/static/css/2.61b4cb56.chunk.css",
@@ -16,6 +16,7 @@
     "static/js/2.de8a81d9.chunk.js.LICENSE.txt": "/my-projects/static/js/2.de8a81d9.chunk.js.LICENSE.txt",
     "static/media/github.036bd1c0.svg": "/my-projects/static/media/github.036bd1c0.svg",
     "static/media/project1.902565eb.webp": "/my-projects/static/media/project1.902565eb.webp",
+    "static/media/project10.6d974bf0.png": "/my-projects/static/media/project10.6d974bf0.png",
     "static/media/project2.c20bb375.webp": "/my-projects/static/media/project2.c20bb375.webp",
     "static/media/project3.9a2f1133.webp": "/my-projects/static/media/project3.9a2f1133.webp",
     "static/media/project4.155e60f1.webp": "/my-projects/static/media/project4.155e60f1.webp",
@@ -30,6 +31,6 @@
     "static/css/2.61b4cb56.chunk.css",
     "static/js/2.de8a81d9.chunk.js",
     "static/css/main.80852ec4.chunk.css",
-    "static/js/main.05a087f2.chunk.js"
+    "static/js/main.8f373f87.chunk.js"
   ]
 }
